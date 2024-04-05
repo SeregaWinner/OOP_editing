@@ -1,4 +1,4 @@
-public class ServiceStation{
+public class ServiceStation {
     private final String modelName;
     private final int wheelsCount;
 
