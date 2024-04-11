@@ -1,4 +1,12 @@
 public class ServiceControl implements Service {
+//    public void check (Transports transports){
+//        System.out.println("Обслуживаем " + transports.getModelName());
+//        for (int i = 0; i < transports.getWheelsCount(); i ++){
+//            transports.updateTyre();
+//        }
+//        transports.checkEngine();
+//        transports.checkTrailer();
+//    }
     public void check(Car car) {
         System.out.println("Обслуживаем " + car.getModelName());
         for (int i = 0; i < car.getWheelsCount(); i++) {
